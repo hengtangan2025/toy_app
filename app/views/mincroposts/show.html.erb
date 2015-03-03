@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @mincropost.content %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @mincropost.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_mincropost_path(@mincropost) %> |
+<%= link_to 'Back', mincroposts_path %>
